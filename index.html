@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-customYellow">
+    <article
+      id="card"
+      class="bg-white w-customMobile h-customMobile absolute top-0 bottom-0 my-auto left-0 right-0 mx-auto rounded-custom flex flex-col items-center p-6 border-black border shadow-black drop-shadow-[8px_8px_rgba(0,0,0,100)] lg:w-[384px] lg:h-[522px]"
+    >
+      <figure
+        class="w-[279px] h-[200px] rounded-[10px] overflow-hidden lg:w-[336px]"
+      >
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt="card-picture"
+          class="w-full h-full object-cover"
+        />
+      </figure>
+
+      <section
+        id="card-content"
+        class="mt-6 flex flex-col items-start gap-[12px]"
+      >
+        <h2
+          class="px-[12px] py-1 bg-customYellow rounded-[4px] font-extrabold text-xs lg:text-sm"
+        >
+          Learning
+        </h2>
+        <p class="text-xs font-medium lg:text-sm">Published 21 Dec 2023</p>
+        <h1
+          class="text-xl font-extrabold lg:text-2xl hover:text-customYellow transition-colors duration-150 ease-linear"
+        >
+          HTML & CSS foundations
+        </h1>
+        <p class="text-sm text-customeGrey lg:text-base leading-custom">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </section>
+
+      <section id="author" class="mt-6 flex items-center self-start gap-[12px]">
+        <figure class="w-8 h-8 rounded-full overflow-hidden">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="author-picture"
+            class="w-full h-full object-cover"
+          />
+        </figure>
+        <p class="text-sm font-bold">Greg Hooper</p>
+      </section>
+    </article>
+  </body>
+</html>
